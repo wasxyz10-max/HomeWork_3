@@ -31,8 +31,3 @@ def main(page: ft.Page):
     page.add(input_name, scr_button, clear_button, text_hello)
 ft.app(target=main, view=ft.AppView.WEB_BROWSER)
 
-
-
-
-
-
