@@ -32,7 +32,7 @@ def main(page: ft.Page):
 
 
     dele_history = ft.ElevatedButton('Удалить последнее имя', icon=ft.icons.Icons.DELETE, on_click=del_button)
-    name_input = ft.TextField(label='Введите имя', on_click=click_button, expand=True)
+    name_input = ft.TextField(label='Введите имя', on_submit=click_button, expand=True)
     save_button = ft.ElevatedButton('Сохранить имя', icon=ft.Icons.SEND, on_click=click_button)
     his_del = ft.Row([hello_history,dele_history], alignment=ft.MainAxisAlignment.SPACE_AROUND)
     group_input = ft.Row([name_input,save_button], alignment=ft.MainAxisAlignment.CENTER)
