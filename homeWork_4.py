@@ -30,6 +30,7 @@ def main(page: ft.Page):
             hello_text.value = 'Hello world'
 
 
+
     dele_history = ft.ElevatedButton('Удалить последнее имя', icon=ft.icons.Icons.DELETE, on_click=del_button)
     name_input = ft.TextField(label='Введите имя', on_click=click_button, expand=True)
     save_button = ft.ElevatedButton('Сохранить имя', icon=ft.Icons.SEND, on_click=click_button)
